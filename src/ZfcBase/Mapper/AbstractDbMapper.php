@@ -8,8 +8,8 @@ use Zend\Db\ResultSet\HydratingResultSet;
 use Zend\Db\Sql\Select;
 use Zend\Db\Sql\Sql;
 use Zend\Db\Sql\TableIdentifier;
-use Zend\Stdlib\Hydrator\HydratorInterface;
-use Zend\Stdlib\Hydrator\ClassMethods;
+use Zend\Hydrator\HydratorInterface;
+use Zend\Hydrator\ClassMethods;
 use ZfcBase\EventManager\EventProvider;
 use ZfcBase\Db\Adapter\MasterSlaveAdapterInterface;
 
