@@ -48,7 +48,9 @@ class ProvidesEventsForm extends Form
                 }
                 // silently ignore invalid eventIdentifier types
             }
-            $this->setEventManager(new EventManager($identifiers));
+            $eventManager = new EventManager();
+            $eventManager->setIdentifiers($identifiers);
+            $this->setEventManager($eventManager);
         }
         return $this->events;
     }
